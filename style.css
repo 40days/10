@@ -1,0 +1,209 @@
+/*
+
+Projecto de aptidão profissional.
+Realizado por Diogo Francisco Nunes Ribeiro
+Aluno nº5 P3MM1 2012/2013
+Fontes Pereira de Melo
+- 2015 - 
+
+
+
+Esquema de cores: http://www.color-hex.com/color/eee8d5
+./esquema\ de\ cores.png
+
+ */
+
+
+/* INICIO CSS
+*/
+
+	body {
+		font:12pt "Ubuntu", "Open Sans", "Segoe UI", "Verdana", "Arial" !important;
+		background-color: #EEE8D5 !important;
+		transition:all 0.2s ease-in-out !important;
+	}
+
+/* 	Titulo
+*/	
+
+#title{
+	word-break: break-all;
+	font: 40pt "Ubuntu", "YutaCoco", "Open Sans", "Segoe UI", "Verdana", "Arial";
+	text-align: center;
+	line-height: 130px;
+	position: absolute;
+	left: 50%;
+    top: 15%;
+	    transform: translate(-50%, -50%);}
+}
+
+.title{
+	height: 130px;
+}
+.title p{
+	transition: all .2s ease-in-out;
+	display: inline;
+	color: #6c71c4;
+}
+.title p:hover {
+	color: #d33682;
+}
+.title p a {
+	transition: all .2s ease-in-out;
+	border-radius: 7px;
+	text-decoration: none;
+	color: #6c71c4;
+	padding: 1 -2px;
+}
+.title p a:hover{
+	border: 1px;
+	box-shadow: inset 0 900px 0 0 #6c71c4;
+	color:#fdf6e3;
+}
+
+/*	Barra de procura
+*/
+
+#searchbar{ 
+	border: none;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+	    transform: translate(-50%, -50%);}
+
+.textbox {
+	background:white url(searchbar.png) left center no-repeat;
+	padding: 8px 5px 8px 30px;
+	border: 0.5px solid #6c71c4;
+	border-radius: 7px;
+	margin-right: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	transation: all 2s;
+}
+.textbox:hover {
+	padding: 8px 5px 8px 30px;
+	border: 2px solid #6c71c4;
+	transation: all 2s;
+}
+.textbox:focus{
+	padding: 8px 5px 8px 30px;
+	border: 2px solid #6c71c4;
+	transation: all 2s;
+}
+
+/*	Para os alunos que desejariam fazer download desta página carregariam aqui
+*/
+
+#download{
+  font-size: 12px !important;
+  font: "YutaCoco", "Open Sans", "Segoe UI", "Verdana", "Arial";
+  text-align: center;
+  position: absolute;
+  top: 8%;  
+  left: 95%;
+  		transform: translate(-50%, -50%);
+}
+.download p a {
+	text-decoration: none;
+	color: #6c71c4;
+	border: 2px solid #6c71c4;
+	border-radius: 7px;
+	display: inline-block;
+	transition: all .2s;
+	padding: 2px 3px;
+}
+.download p a:hover{
+	display: inline-block;
+	border: none;
+	box-shadow: inset 0 900px 0 0 #6c71c4;
+	border-radius: 7px;
+	border:inset 3px solid #6c71c4;
+	color:#fdf6e3;
+}
+
+/* MOODLE
+*/
+#moodle{
+	opacity: 25%;
+	position: absolute;
+	top: 8%;
+	left: 5%;
+	transition:all .2s;
+  		transform: translate(-50%, -50%);
+}
+.moodle:hover{
+	opacity: 100%;
+	transition:.2s;
+}
+
+
+/*TEXTO DE AVISO
+*/
+
+#aviso {
+	display: inline;
+	text-align: center;
+	position: absolute;
+    left: 50%;
+    top: 32.5%;
+	    transform: translate(-50%, -50%);
+}
+
+.aviso h1{
+	display: inline;
+	font-size: 15px;
+	color: #dc322f;
+	border: 2px solid #dc322f;
+	border-radius: 7px;
+	padding: 3px
+}
+
+.aviso p{
+	display: inline;
+	color: #073642;
+	padding: 1px;
+	font-weight: normal;
+}
+
+/*TEXTO DE NOVIDADE
+*/
+
+#novidade {
+	display: inline;
+	text-align: center;
+	position: absolute;
+    left: 50%;
+    top: 32.5%;
+	    transform: translate(-50%, -50%);
+}
+
+.novidade h1{
+	display: inline;
+	font-size: 15px;
+	color: #268bd2;
+	padding: 4px 4px;	
+}
+
+.novidade p{
+	font-weight: normal;
+	display: inline;
+	color: #073642;
+	padding: 1px;
+}
+
+/*Corpo
+*/
+#corpo{
+	position: absolute;
+    left: 50%;
+    top: 32.5%;
+	width: 100%;
+	background-color: #e7dec3;
+
+	    transform: translate(-50%, -50%);
+}
+}
+
+/*CAIXAS DE CONTEUDO
+*/
